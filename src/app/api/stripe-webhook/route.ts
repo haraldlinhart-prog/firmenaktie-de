@@ -1,10 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { supabase } from '@/lib/supabase'
-import { Resend } from 'resend'
-
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
-const resend = new Resend(process.env.RESEND_API_KEY!)
 
 export async function POST(req: NextRequest) {
   const body = await req.text()
@@ -37,7 +34,7 @@ export async function POST(req: NextRequest) {
         await supabase.from('fa_registry').insert({ company_name: co.company_name }).onConflict('company_name').ignore()
 
         // Bestätigungsmail
-        await resend.emails.send({
+        const { Resend } = await import('resend'); const resend = new Resend(process.env.RESEND_API_KEY!); await resend.emails.send({
           from: 'noreply@pan21.com',
           to: email,
           replyTo: 'info@firmenaktie.de',
@@ -66,7 +63,7 @@ export async function POST(req: NextRequest) {
         .update({ status: 'issued', paid_at: new Date().toISOString(), issued_at: new Date().toISOString() })
         .eq('id', meta.share_id)
 
-      await resend.emails.send({
+      const { Resend } = await import('resend'); const resend = new Resend(process.env.RESEND_API_KEY!); await resend.emails.send({
         from: 'noreply@pan21.com',
         to: email,
         subject: 'Ihre Aktienausgabe wurde bearbeitet',
