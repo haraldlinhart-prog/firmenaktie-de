@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ink text-white font-body antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-fern text-white text-sm font-medium tracking-wide hover:bg-fern-lt transition-colors;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-champ/30 text-champ text-sm tracking-wide hover:border-champ/60 hover:text-champ-lt transition-colors;
+  }
+  .btn-copper {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-copper text-white text-sm font-medium tracking-wide hover:bg-copper-lt transition-colors;
+  }
+  .card {
+    @apply bg-ink-2 border border-champ/10 p-6;
+  }
+  .card-green {
+    @apply bg-fern-dark border border-fern/30 p-6;
+  }
+  .form-input {
+    @apply w-full bg-ink-3 border border-champ/20 text-white px-4 py-3 text-sm placeholder-white/30 focus:outline-none focus:border-champ/50;
+  }
+  .form-select {
+    @apply w-full bg-ink-3 border border-champ/20 text-white px-4 py-3 text-sm focus:outline-none focus:border-champ/50;
+  }
+  .tag {
+    @apply inline-block text-xs tracking-widest uppercase px-3 py-1 border;
+  }
+  .tag-green { @apply tag border-fern/40 text-fern-lt bg-fern/10; }
+  .tag-champ { @apply tag border-champ/30 text-champ; }
+}
