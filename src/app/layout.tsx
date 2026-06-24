@@ -41,6 +41,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "description": "GmbH und UG Anteile online erwerben und übertragen ohne Notar",
           "potentialAction": { "@type": "SearchAction", "target": "https://www.firmenaktie.de/registry?q={search_term_string}", "query-input": "required name=search_term_string" }
         })}} />
+              <script dangerouslySetInnerHTML={{__html: `var sc_project=13317697;var sc_invisible=1;var sc_security="458f783c";`}} />
+        <script async src="https://www.statcounter.com/counter/counter.js" />
       </head>
       <body>{children}</body>
     </html>
