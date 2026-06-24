@@ -255,6 +255,80 @@ export default function Home() {
           </div>
         </section>
 
+
+        {/* STILLE BETEILIGUNG */}
+        <section className="py-24 px-4 sm:px-8 bg-ink-3 border-y border-champ/8">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <p className="text-xs tracking-widest uppercase text-champ mb-4">Alternative — Ohne Notar</p>
+                <h2 className="font-display text-4xl font-light text-white mb-6">
+                  Stille Beteiligung einer{' '}
+                  <span className="text-champ italic">GmbH oder UG</span>{' '}
+                  durch Ihre Series LLC
+                </h2>
+                <p className="text-white/55 leading-relaxed mb-4">
+                  Neben dem direkten Anteilserwerb gibt es einen noch einfacheren Weg: 
+                  Die stille Beteiligung. Dabei schließen der Geschäftsführer der Series LLC 
+                  und der Geschäftsführer der GmbH oder UG einen privaten Beteiligungsvertrag — 
+                  vollständig ohne Notar, ohne Handelsregistereintrag, sofort rechtswirksam.
+                </p>
+                <p className="text-white/55 leading-relaxed mb-6">
+                  Beide Parteien können dabei <strong className="text-white">ein und dieselbe Person</strong> sein — 
+                  also Sie selbst als Geschäftsführer beider Gesellschaften. Wir stellen das 
+                  vollständige Vertragswerk zur Verfügung.
+                </p>
+                <div className="space-y-3 mb-8">
+                  {[
+                    { icon: '✓', text: 'Kein Notar, kein Amtsgericht, kein Handelsregister' },
+                    { icon: '✓', text: 'Bindender Privatvertrag nach deutschem Recht' },
+                    { icon: '✓', text: 'Geschäftsführer beider Gesellschaften kann dieselbe Person sein' },
+                    { icon: '✓', text: 'Sofort wirksam nach Unterzeichnung' },
+                    { icon: '✓', text: 'Vollständiges Vertragswerk inkl. Anlagen' },
+                  ].map((item, i) => (
+                    <div key={i} className="flex gap-3 text-sm">
+                      <span className="text-fern-lt font-medium">{item.icon}</span>
+                      <span className="text-white/65">{item.text}</span>
+                    </div>
+                  ))}
+                </div>
+                <Link href="/auth" className="btn-primary">Vertragswerk bestellen — EUR 499</Link>
+              </div>
+
+              <div className="space-y-4">
+                <div className="card border-fern/20">
+                  <div className="text-xs tracking-widest uppercase text-fern-lt mb-4">Stille Beteiligung — Ablauf</div>
+                  <div className="space-y-4">
+                    {[
+                      { n: '01', title: 'Series LLC gründen', text: 'Ihre Series LLC als stiller Gesellschafter (EUR 49 einmalig).' },
+                      { n: '02', title: 'Vertragswerk bestellen', text: 'Wir erstellen den auf Ihre Gesellschaften zugeschnittenen Beteiligungsvertrag.' },
+                      { n: '03', title: 'Unterzeichnen', text: 'Beide Geschäftsführer unterzeichnen — auch wenn es dieselbe Person ist.' },
+                      { n: '04', title: 'Fertig', text: 'Die stille Beteiligung ist sofort rechtswirksam. Kein weiterer Schritt nötig.' },
+                    ].map((step) => (
+                      <div key={step.n} className="flex gap-4 pb-4 border-b border-champ/8 last:border-0 last:pb-0">
+                        <div className="font-display text-2xl text-champ/20 font-light w-8 shrink-0">{step.n}</div>
+                        <div>
+                          <div className="text-sm font-medium text-white mb-1">{step.title}</div>
+                          <div className="text-xs text-white/45">{step.text}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="card flex items-center justify-between">
+                  <div>
+                    <div className="text-xs text-white/40 mb-1">Vertragswerk Stille Beteiligung</div>
+                    <div className="font-display text-3xl text-champ font-light">EUR 499</div>
+                    <div className="text-xs text-white/30 mt-1">einmalig · inkl. alle Anlagen</div>
+                  </div>
+                  <Link href="/auth" className="btn-primary text-sm">Jetzt bestellen</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* SEO TEXT / USE CASES */}
         <section className="py-24 px-4 sm:px-8">
           <div className="max-w-6xl mx-auto">
@@ -269,7 +343,7 @@ export default function Home() {
                 { title: 'Minibeteiligung GmbH', text: 'Kleine Beteiligungen unter EUR 10.000 lohnen beim Notar kaum — die Kosten übersteigen oft den Wert. Mit Firmenaktie.de ab EUR 49.' },
                 { title: 'Firmenkauf online', text: 'Kaufen Sie Unternehmensanteile vollständig online und digital — ohne Wartezeiten, ohne Notartermin, innerhalb von 24 Stunden.' },
                 { title: 'Aktienbeteiligung ausgeben', text: 'Als Unternehmer können Sie eigene Inhaberaktien oder Namensaktien für Ihre Series LLC ausgeben und damit Kapital einwerben.' },
-                { title: 'Stille Beteiligung Alternative', text: 'Statt einer notarpflichtigen stillen Beteiligung bietet die Series LLC eine flexible, international anerkannte Alternative.' },
+                { title: 'Stille Beteiligung ohne Notar', text: 'Die stille Beteiligung einer GmbH oder UG durch eine Series LLC ist vollständig notarfrei. Ein privater Beteiligungsvertrag genügt — sofort rechtswirksam.' },
               ].map((item, i) => (
                 <div key={i} className="p-6 border border-champ/8 hover:border-champ/20 transition-colors group">
                   <div className="text-fern-lt text-lg mb-3 group-hover:text-champ transition-colors">→</div>
@@ -291,7 +365,7 @@ export default function Home() {
             </h2>
             <p className="text-white/50 mb-8 leading-relaxed">
               Registrieren Sie sich kostenlos. Zahlen Sie erst wenn Sie gründen. 
-              EUR 49 einmalig, EUR 19 jährliche Erneuerung.
+              EUR 49 einmalig, EUR 19 jährliche Erneuerung. Stille Beteiligung per Privatvertrag ab EUR 499.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <Link href="/auth" className="btn-primary">Kostenlos registrieren</Link>
