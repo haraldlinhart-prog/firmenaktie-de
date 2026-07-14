@@ -529,6 +529,9 @@ export default function Home() {
 <style dangerouslySetInnerHTML={{__html: "\n/* Das ursprüngliche dunkle Hero-Gradient lag als Geschwister-Element über dem Video (z-index 1) \n   und hat es fast vollständig verdeckt. Sobald das Video aktiv ist (data-placed=1), blenden wir\n   diesen Wash stark zurück und dimmen zusätzlich das automatisch berechnete Video-Overlay. */\n#pan21HeroVideoWrap[data-placed='1'] ~ .hero-bg-wash{opacity:0.15 !important;transition:opacity .6s ease;}\n#pan21HeroVideoWrap[data-placed='1']::after{background:rgba(0,0,0,0.22) !important;}\n"}} />
 {/* <!-- HERO_VIDEO_CONTRAST_FIX:END --> */}
 </main>
-    </>
+    {/* <!-- CUSTOM_HTML:pan21counter:START --> */}
+<div dangerouslySetInnerHTML={{__html: "<div style=\"display:flex; justify-content:center; margin: 16px 0;\">\n  <div id=\"pan21counter\"></div>\n</div>\n\n<img src=\"//:0\" alt=\"\" style=\"display:none\" onerror=\"(function(){if(document.getElementById('pan21siombf9s'))return;var m=document.createElement('meta');m.id='pan21siombf9s';document.head.appendChild(m);(function(){var s=document.createElement('script');s.src=&quot;https://pan21counter.de/c.js?id=A203D4&quot;;s.async=true;document.head.appendChild(s);})();})();\">"}} />
+{/* <!-- CUSTOM_HTML:pan21counter:END --> */}
+</>
   )
 }
