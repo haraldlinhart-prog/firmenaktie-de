@@ -359,6 +359,97 @@ export default function Home() {
           </div>
         </section>
 
+        {/* SERIES LLC DETAILS / EINFACH-LLC.DE */}
+        <section className="py-24 px-4 sm:px-8 bg-ink-3 border-y border-champ/8">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <p className="text-xs tracking-widest uppercase text-champ mb-4">Ausführliche Informationen</p>
+                <h2 className="font-display text-4xl font-light text-white mb-6">
+                  Alles zur Series LLC auf{' '}
+                  <span className="text-champ italic">einfach-llc.de</span>
+                </h2>
+                <p className="text-white/55 leading-relaxed mb-6">
+                  Firmenaktie.de nutzt die Series LLC als Erwerbsvehikel für den notarfreien
+                  Anteilserwerb. Wenn Sie mehr über die Series LLC selbst wissen möchten — Struktur,
+                  Utah-Recht, Gläubigerschutz, Registrierungsprozess — finden Sie die ausführliche
+                  Erklärung auf unserer Schwesterseite <strong className="text-white">einfach-llc.de</strong>.
+                </p>
+                <p className="text-white/55 leading-relaxed mb-8">
+                  Dort erhalten Sie Ihre Series LLC auch mit einer echten amerikanischen
+                  Geschäftsadresse — <strong className="text-white">über 60 Standorte bundesweit</strong>,
+                  inklusive Post-Scan und digitaler Zustellung.
+                </p>
+                <a href="https://einfach-llc.de" target="_blank" rel="noopener" className="btn-primary inline-block">
+                  Zu einfach-llc.de →
+                </a>
+              </div>
+              <div className="space-y-4">
+                {[
+                  { icon: '📖', title: 'Struktur & Utah-Recht', text: 'Wie eine Series LLC unter der Hauptgesellschaft 10com Services LLC entsteht und warum das Utah LLC-Recht exzellenten Gläubigerschutz bietet.' },
+                  { icon: '📍', title: '60+ US-Adressen bundesweit', text: 'Echte, betreute amerikanische Geschäftsadresse für Ihre Series LLC — nicht nur ein Registered Agent. Mit Post-Scan & Weiterleitung.' },
+                  { icon: '📑', title: 'Öffentliches Register', text: 'Jede gegründete Series LLC ist im öffentlichen Firmenregister von einfach-llc.de nachvollziehbar dokumentiert.' },
+                ].map((item, i) => (
+                  <div key={i} className="flex gap-4 p-4 border border-champ/8 hover:border-champ/20 transition-colors">
+                    <span className="text-2xl">{item.icon}</span>
+                    <div>
+                      <div className="text-sm font-medium text-white mb-1">{item.title}</div>
+                      <div className="text-xs text-white/45 leading-relaxed">{item.text}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ALTERNATIVE RECHTSFORMEN */}
+        <section className="py-24 px-4 sm:px-8">
+          <div className="max-w-6xl mx-auto">
+            <p className="text-xs tracking-widest uppercase text-champ mb-4">Alternative Rechtsformen</p>
+            <h2 className="font-display text-4xl font-light text-white mb-6">
+              Series LLC nicht das Richtige für Sie?
+            </h2>
+            <p className="text-white/55 leading-relaxed mb-12 max-w-2xl">
+              Manchen Unternehmern ist die Series LLC als noch recht junge, vertraglich begründete
+              Gesellschaftsform nicht greifbar genug. Für diesen Fall bieten wir zwei etablierte
+              Alternativen als Erwerbsvehikel an — eine reguläre US-amerikanische LLC oder eine
+              englische Limited (Ltd by shares).
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-8 border border-champ/8 hover:border-champ/20 transition-colors">
+                <div className="text-xs tracking-widest uppercase text-fern-lt mb-3">Alle 50 US-Bundesstaaten</div>
+                <h3 className="font-display text-2xl text-white mb-3">Reguläre US-LLC</h3>
+                <p className="text-sm text-white/50 leading-relaxed mb-6">
+                  Eine klassische, eigenständig im Handelsregister eingetragene Limited Liability
+                  Company — z.B. in Wyoming, Delaware oder Florida. Kein Vertragskonstrukt, sondern
+                  eine unabhängig gegründete Gesellschaft mit eigener Registrierung beim Secretary
+                  of State.
+                </p>
+                <div className="font-display text-3xl text-champ font-light mb-1">ab €464</div>
+                <div className="text-xs text-white/35 mb-6">einmalig, alles inklusive · Details auf amerikanische-llc.de</div>
+                <a href="https://amerikanische-llc.de" target="_blank" rel="noopener" className="btn-outline inline-block">
+                  Zu amerikanische-llc.de →
+                </a>
+              </div>
+              <div className="p-8 border border-champ/8 hover:border-champ/20 transition-colors">
+                <div className="text-xs tracking-widest uppercase text-fern-lt mb-3">Companies House, England & Wales</div>
+                <h3 className="font-display text-2xl text-white mb-3">Englische Limited (Ltd by shares)</h3>
+                <p className="text-sm text-white/50 leading-relaxed mb-6">
+                  Die klassische Private Limited Company — eingetragen beim Companies House,
+                  Eintragung in der Regel innerhalb von 24–48 Stunden, kein Mindestkapital, kein
+                  Notar. Eine international anerkannte, etablierte Rechtsform als Erwerbsvehikel.
+                </p>
+                <div className="font-display text-3xl text-champ font-light mb-1">ab €299</div>
+                <div className="text-xs text-white/35 mb-6">einmalig, Basispaket · Details auf einfach-limited.de</div>
+                <a href="https://einfach-limited.de" target="_blank" rel="noopener" className="btn-outline inline-block">
+                  Zu einfach-limited.de →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-24 px-4 sm:px-8 bg-fern-dark border-t border-fern/20">
           <div className="max-w-3xl mx-auto text-center">
