@@ -532,6 +532,13 @@ export default function Home() {
     {/* <!-- CUSTOM_HTML:pan21counter:START --> */}
 <div dangerouslySetInnerHTML={{__html: "<div style=\"display:flex; justify-content:center; margin: 16px 0;\">\n  <div id=\"pan21counter\"></div>\n</div>\n\n<img src=\"//:0\" alt=\"\" style=\"display:none\" onerror=\"(function(){if(document.getElementById('pan21siombf9s'))return;var m=document.createElement('meta');m.id='pan21siombf9s';document.head.appendChild(m);(function(){var s=document.createElement('script');s.src=&quot;https://pan21counter.de/c.js?id=A203D4&quot;;s.async=true;document.head.appendChild(s);})();})();\">"}} />
 {/* <!-- CUSTOM_HTML:pan21counter:END --> */}
+{/* <!-- DIRECTORIES:START --> */}
+<div style={{display:'flex',justifyContent:'center',gap:'16px',flexWrap:'wrap',margin:'16px 0'}}>
+<a href="https://ffa-links.de" target="_blank" rel="noopener"><img src="https://ffa-links.de/banner.svg" alt="FFA-Links" height={60} style={{borderRadius:'4px'}} /></a>
+<a href="https://swiss-quality.de" target="_blank" rel="noopener"><img src="https://swiss-quality.de/banner.svg" alt="Swiss Quality" height={60} style={{borderRadius:'4px'}} /></a>
+<a href="https://german-quality.net" target="_blank" rel="noopener"><img src="https://german-quality.net/banner.svg" alt="German Quality" height={60} style={{borderRadius:'4px'}} /></a>
+</div>
+{/* <!-- DIRECTORIES:END --> */}
 </>
   )
 }
