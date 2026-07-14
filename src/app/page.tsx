@@ -137,7 +137,8 @@ export default function Home() {
                 </p>
                 <p className="text-white/55 leading-relaxed mb-6">
                   <strong className="text-white">Der Ausweg:</strong> Wenn eine US-amerikanische 
-                  Series LLC — eine eigenständige juristische Person nach Wyoming-Recht — die 
+                  Series LLC — eine eigenständige juristische Person, deren Struktur wir aktuell 
+                  über eine Series-LLC-Jurisdiktion in Utah abbilden — die 
                   Anteile erwirbt, gelten andere Regeln. Die LLC selbst ist nicht notarpflichtig. 
                   Der Anteilserwerb erfolgt über die LLC-Membership ohne deutschen Notar.
                 </p>
@@ -145,7 +146,7 @@ export default function Home() {
               </div>
               <div className="space-y-4">
                 {[
-                  { icon: '⚖️', title: 'Rechtssicher', text: 'Die Series LLC ist eine anerkannte Rechtsform nach Wyoming-Recht (Wyoming LLC Act). Jede Series ist eine eigenständige juristische Person mit separater Haftung.' },
+                  { icon: '⚖️', title: 'Rechtssicher', text: 'Die Series LLC ist eine anerkannte Rechtsform, die mittlerweile in einer ganzen Reihe von US-Bundesstaaten kodifiziert ist. Wir gründen aktuell über eine Series-LLC-Jurisdiktion in Utah. Jede Series ist eine eigenständige juristische Person mit separater Haftung.' },
                   { icon: '📄', title: 'Vollständige Dokumentation', text: 'Sie erhalten ein Operating Agreement, Gründungsurkunde, Apostille und beglaubigte deutsche Übersetzung — alles automatisch per E-Mail als PDF.' },
                   { icon: '🔒', title: 'Haftungstrennung', text: 'Jede Series haftet nur mit ihrem eigenen Vermögen. Verbindlichkeiten einer Series berühren die anderen nicht.' },
                   { icon: '🌍', title: 'International anerkannt', text: 'Mit Apostille ist die Gründungsurkunde in allen Haager-Abkommen-Staaten rechtsgültig — also auch in Deutschland, Österreich und der Schweiz.' },
