@@ -608,6 +608,9 @@ async function pan21NlSubmit(){
 <a href="https://german-quality.net" target="_blank" rel="noopener"><img src="https://german-quality.net/banner.svg" alt="German Quality" height={60} style={{borderRadius:'4px'}} /></a>
 </div>
 {/* <!-- DIRECTORIES:END --> */}
+{/* <!-- REVIVE_SIDE:START --> */}
+<div dangerouslySetInnerHTML={{__html: "<div id=\"pan21-side-banner\" style=\"position:fixed;top:120px;bottom:260px;right:0;z-index:9998;background:#fff;box-shadow:-2px 2px 8px rgba(0,0,0,0.15);padding:4px;overflow:hidden;\">\n<div style=\"font-size:10px;color:#999;text-align:center;margin-bottom:2px;\">Werbung</div>\n<ins data-revive-zoneid=\"9\" data-revive-id=\"0b01ba1194fdc0e89c6321458dbc5814\"></ins>\n\n</div>\n<img src=\"//:0\" alt=\"\" style=\"display:none\" onerror=\"(function(){if(document.getElementById('pan21si8cij7e'))return;var m=document.createElement('meta');m.id='pan21si8cij7e';document.head.appendChild(m);(function(){var s=document.createElement('script');s.src=&quot;//ads.pan21.com/www/delivery/asyncjs.php&quot;;s.async=true;document.head.appendChild(s);})();})();\">"}} />
+{/* <!-- REVIVE_SIDE:END --> */}
 </>
   )
 }
