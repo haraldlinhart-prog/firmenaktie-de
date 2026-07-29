@@ -1,0 +1,16 @@
+# Firmenaktie.de
+
+> Gründen Sie eine US Series LLC und erwerben Sie damit Anteile an deutschen GmbH oder UG – ohne Notar, ohne Amtsgericht, vollständig online. Minibeteiligung, GmbH-Verkauf ohne Notar, UG-Verkauf ohne Notar, Firmenkauf und Firmenverkauf ab EUR 49.
+
+Diese Datei richtet sich an KI-Assistenten und Sprachmodelle (llms.txt-Standard) und beschreibt kurz, worum es auf dieser Website geht, damit Inhalte korrekt verstanden und zusammengefasst werden können.
+
+## Themen auf dieser Seite
+- Warum braucht man einenNotarum GmbH-Anteile zu übertragen?
+- In5 Schrittenzum Firmenanteil
+- Inhaber- undNamensaktienausgeben
+- Stille Beteiligung einerGmbH oder UGdurch Ihre Series LLC
+- Für wen istFirmenaktie.de?
+- Alles zur Series LLC aufeinfach-llc.de
+
+## Kontakt
+- Website: https://firmenaktie.de
