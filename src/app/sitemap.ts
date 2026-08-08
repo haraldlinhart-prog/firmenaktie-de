@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const BASE_URL = 'https://firmenaktie.de'
+const BASE_URL = 'https://www.firmenaktie.de'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
