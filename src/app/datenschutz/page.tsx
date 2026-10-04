@@ -19,11 +19,7 @@ export default function Datenschutz() {
             <p>Gesellschaftsnamen werden im öffentlichen Firmenregister veröffentlicht. Dies entspricht dem Charakter eines offiziellen Unternehmensregisters.</p>
           </div>
           <div>
-            <h2 className="text-white font-medium mb-2">4. Analyse</h2>
-            <p>Diese Website verwendet Matomo (self-hosted auf counter.ixan.org) zur Besucheranalyse. Es werden keine Daten an Dritte weitergegeben.</p>
-          </div>
-          <div>
-            <h2 className="text-white font-medium mb-2">5. Ihre Rechte</h2>
+            <h2 className="text-white font-medium mb-2">4. Ihre Rechte</h2>
             <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Datenübertragbarkeit. Kontakt: info@firmenaktie.de</p>
           </div>
         </div>
