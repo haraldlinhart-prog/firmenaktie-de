@@ -1,4 +1,6 @@
 import Link from 'next/link'
+
+export const metadata = { alternates: { canonical: 'https://www.firmenaktie.de/impressum' } }
 export default function Impressum() {
   return (
     <div className="min-h-screen bg-ink px-4 sm:px-8 py-16">

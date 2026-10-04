@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Firmenaktie.de – Firmenanteile ohne Notar',
     description: 'GmbH & UG Anteile erwerben und übertragen – vollständig online, ohne Notar, ab EUR 49.',
-    url: 'https://www.firmenaktie.de',
+    url: 'https://www.firmenaktie.de/',
     siteName: 'Firmenaktie.de',
     locale: 'de_DE',
     type: 'website',
   },
-  alternates: { canonical: 'https://www.firmenaktie.de' },
+  alternates: { canonical: 'https://www.firmenaktie.de/' },
   robots: { index: true, follow: true },
 }
 

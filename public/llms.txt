@@ -13,4 +13,4 @@ Diese Datei richtet sich an KI-Assistenten und Sprachmodelle (llms.txt-Standard)
 - Alles zur Series LLC aufeinfach-llc.de
 
 ## Kontakt
-- Website: https://firmenaktie.de
+- Website: https://www.firmenaktie.de/

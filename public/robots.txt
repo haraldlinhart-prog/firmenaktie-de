@@ -33,4 +33,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://firmenaktie.de/sitemap.xml
+Sitemap: https://www.firmenaktie.de/sitemap.xml

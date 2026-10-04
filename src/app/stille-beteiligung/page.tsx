@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Stille Beteiligung ohne Notar — GmbH & UG | Firmenaktie.de',
   description: 'Stille Beteiligung einer GmbH oder UG durch eine US Series LLC — vollständig ohne Notar. Bindender Privatvertrag nach deutschem Recht, sofort wirksam. Vertragswerk ab EUR 499.',
   keywords: 'stille Beteiligung ohne Notar, stille Beteiligung GmbH, stille Beteiligung UG, Beteiligungsvertrag ohne Notar, stiller Gesellschafter GmbH, stiller Gesellschafter ohne Notar, Beteiligungsvertrag GmbH privat, GmbH Beteiligung notarfrei',
+  alternates: { canonical: 'https://www.firmenaktie.de/stille-beteiligung' },
 }
 
 export default function StilleBeteiligungPage() {

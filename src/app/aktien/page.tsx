@@ -3,6 +3,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Inhaberaktien & Namensaktien ausgeben | Firmenaktie.de',
   description: 'Geben Sie Inhaber- oder Namensaktien für Ihre US Series LLC aus. Ab EUR 99 für Aktienkapital bis USD 100.000. Rechtssicher, vollständig online.',
+  alternates: { canonical: 'https://www.firmenaktie.de/aktien' },
 }
 
 export default function AktienPage() {
