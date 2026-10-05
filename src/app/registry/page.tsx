@@ -68,6 +68,16 @@ export default function RegistryPage() {
           </div>
         )}
       </div>
+
+      <footer className="border-t border-champ/8 py-8 px-4 sm:px-8">
+        <div className="max-w-4xl mx-auto flex flex-wrap gap-6 justify-between text-xs text-white/25">
+          <span>© {new Date().getFullYear()} Firmenaktie.de · PAN21.com International LLC</span>
+          <div className="flex gap-4">
+            <Link href="/impressum" className="hover:text-white">Impressum</Link>
+            <Link href="/datenschutz" className="hover:text-white">Datenschutz</Link>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

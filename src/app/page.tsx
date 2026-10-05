@@ -561,8 +561,8 @@ async function pan21NlSubmit(){
               </div>
             </div>
             <div className="border-t border-champ/8 pt-6 text-xs text-white/25">
-              © {new Date().getFullYear()} Firmenaktie.de · PAN21.COM Corporate Consultants Ltd · 
-              61 Bridge Street, Kington, Herefordshire HR5 3DJ, UK
+              © {new Date().getFullYear()} Firmenaktie.de · PAN21.com International LLC ·
+              7533 South Center View CT, STE R, West Jordan, UT 84084, USA
             </div>
           </div>
         </footer>
