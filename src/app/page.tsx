@@ -565,6 +565,18 @@ async function pan21NlSubmit(){
               7533 South Center View CT, STE R, West Jordan, UT 84084, USA
             </div>
           </div>
+      {/* Verzeichnis-Banner: Swiss Quality, German Quality, FFA-Links */}
+      <div style={{ display:"flex", justifyContent:"center", gap:"12px", flexWrap:"wrap", margin:"1rem 0 0" }}>
+        <a href="https://www.swiss-quality.de/ref/bfd33c33578faa7a8a" target="_blank" rel="noopener"><img src="https://www.swiss-quality.de/banner.svg" width="120" height="60" alt="Swiss Quality"/></a>
+        <a href="https://www.german-quality.net/ref/676a2c35f995f9ffd2" target="_blank" rel="noopener"><img src="https://www.german-quality.net/banner.svg" width="120" height="60" alt="German Quality"/></a>
+        <a href="https://www.ffa-links.de/ref/8ef4a0c2c127112478" target="_blank" rel="noopener"><img src="https://www.ffa-links.de/banner.svg" width="120" height="60" alt="FFA-Links"/></a>
+      </div>
+      {/* Tool-Badges: site-ok.de, kaputte-links.de, pagespeed-plus.de */}
+      <div style={{ display:"flex", justifyContent:"center", gap:"12px", flexWrap:"wrap", margin:"1rem 0 0" }}>
+        <a href="https://www.site-ok.de/status.html?key=5x9rmi9hh3" target="_blank" rel="noopener"><img src="https://www.site-ok.de/api/badge?key=5x9rmi9hh3" alt="Site-Status" width="320" height="80" /></a>
+        <a href="https://www.kaputte-links.de/status.html?key=gdygwoc6ex" target="_blank" rel="noopener"><img src="https://www.kaputte-links.de/api/badge?key=gdygwoc6ex" alt="Link-Status" width="320" height="80" /></a>
+        <a href="https://www.pagespeed-plus.de/status.html?key=jbgr2arx3p" target="_blank" rel="noopener"><img src="https://www.pagespeed-plus.de/api/badge?key=jbgr2arx3p" alt="PageSpeed Score" /></a>
+      </div>
         </footer>
       {/* <!-- REVIVE:START --> */}
 <div ref={reviveRef} style={{display: 'flex', justifyContent: 'center', margin: '16px 0'}} />
