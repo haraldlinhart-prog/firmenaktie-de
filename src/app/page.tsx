@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react'
+import SuchmaschinenBlogLink from './SuchmaschinenBlogLink';
 
 export default function Home() {
   const [capital, setCapital] = useState(100000)
@@ -72,6 +73,8 @@ async function pan21NlSubmit(){
           <Link href="/" className="font-display text-xl text-champ tracking-wide">
             Firmenaktie<span className="text-champ/40">.de</span>
           </Link>
+        {/* suchmaschinen.pro:blog-link */}
+        <SuchmaschinenBlogLink className="font-display text-xl text-champ tracking-wide" />
           <div className="hidden sm:flex items-center gap-6 text-sm text-white/50">
             <Link href="/wie-es-funktioniert" className="hover:text-white transition-colors">Ablauf</Link>
             <Link href="/aktien" className="hover:text-white transition-colors">Aktienausgabe</Link>
