@@ -147,7 +147,6 @@ export default function GruendenPage() {
             </div>
             <div className="text-xs text-white/30 space-y-1">
               <p>✓ Operating Agreement per E-Mail als PDF</p>
-              <p>✓ Apostille & beglaubigte Übersetzung</p>
               <p>✓ Eintrag ins öffentliche Firmenregister</p>
             </div>
             {error && <p className="text-xs text-red-400">{error}</p>}

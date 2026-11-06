@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
           unit_amount: 4900,
           product_data: {
             name: `Series LLC Gründung: ${name} Series of 10com Services LLC`,
-            description: 'Einmalige Gründungsgebühr inkl. Operating Agreement, Apostille & Übersetzung',
+            description: 'Einmalige Gründungsgebühr inkl. Operating Agreement und Gründungsurkunde',
           }
         },
         quantity: 1

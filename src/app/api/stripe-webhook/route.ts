@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
                 <p style="color:#d4b896;margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:2px;">Gesellschaftsname</p>
                 <p style="color:#fff;font-size:18px;margin:0;">${co.company_name} Series of 10com Services LLC</p>
               </div>
-              <p style="color:rgba(255,255,255,0.55);font-size:14px;">Ihre Gründungsdokumente (Operating Agreement, Apostille & Übersetzung) werden innerhalb von 24 Stunden als PDF an diese E-Mail-Adresse gesendet.</p>
+              <p style="color:rgba(255,255,255,0.55);font-size:14px;">Ihre Gründungsdokumente (Operating Agreement und Gründungsurkunde) werden innerhalb von 24 Stunden als PDF an diese E-Mail-Adresse gesendet.</p>
               <p style="color:rgba(255,255,255,0.55);font-size:14px;">Die jährliche Erneuerungsgebühr von EUR 19 ist fällig am: <strong style="color:#d4b896;">${renewal.toLocaleDateString('de-DE')}</strong></p>
               <hr style="border-color:rgba(212,184,150,0.1);margin:24px 0;">
               <p style="color:rgba(255,255,255,0.3);font-size:12px;">Firmenaktie.de · PAN21.com International LLC</p>
